@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  send_file '/Homebase.html'
+  File.read(File.join('public', 'Homebase.html')) # YOU NEED THIS!!!!!!
 end

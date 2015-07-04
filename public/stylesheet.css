@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+@import url(http://fonts.googleapis.com/css?family=Sail|Oleo+Script|Monoton|Playball|Megrim);
+@import url(http://fonts.googleapis.com/css?family=Damion);
+
+
+body {
+	margin:0;
+}
+
+.lander{
+	height: 50vw;
+	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/Howl__039_s_Moving_Castle_Anime_cartoon_fantasy_ships_vehicles_landscapes_flight_buildings_houses_cities_art_4691x2319_zpsacicm3h1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+#name{
+	font-family: 'Damion', cursive;
+	margin: 0 0 0;
+	opacity: .6;
+	height: 1em;
+	width: 7em;
+	font-weight: 800;
+	text-align: center;
+	font-border color: #00662a; 
+	position: absolute;
+  	top:13em; right:0; bottom:0; left:25em;
+  	font-size:3vw;
+  	color: white;
+    text-shadow: 0px 1px 2px #000000;
+ 
+}
+
+
+
+h1 {
+	font-family: 'Playball', cursive;
+	color: #00cc7e;
+	 font-size: 10vw;
+	text-shadow: 0 2px 4px #000; /* horizontal-offset vertical-offset 'blur' colour */
+}
+
+h1.fixed {
+
+    font-weight: 300px;
+    letter-spacing: 1px;
+    margin-left: 50%;
+    margin-top: ;
+    width: 50%;
+    text-align: center;
+    z-index: 1;
+    padding-top: 0em;
+    opacity: 0.8;
+}
+.successfully-saved.hide-opacity{
+    opacity: 0;
+}
+
+.successfully-saved {
+    color: #FFFFFF;
+    text-align: center;
+
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}
+
+.menuBar{
+
+	width: 100%;
+	height: 7%;
+	background-color: red;
+}
+
+/*   EXTRA SHIT
+
+
+body { 
+	font-family: "Nunito", sans-serif; 
+	font-size: 24px; 
+	background-color: #092531;
+	margin: 0px;
+}
+a    { text-decoration: none; }
+sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
+
+.button
+{
+  opacity: .7;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  text-align: center;
+  color: #0C5;
+  font-size: 2vw;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  margin-left: 70% ;
+  position: absolute; 
+  top:17em; right:0; bottom:0; left:0;
+  
+  padding: 1em;
+  width: 6em;
+  height:.1em;
+
+  background: #0D6;
+  border: .3em inset #0D6;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+
+}
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: #0C5;
+  border-color: #0C5;
+  background: #FFF;
+}
+
+.button span 
+{
+  display: inline-block;
+  position: relative;
+  padding-right: 10%;
+  right: 0em;
+  bottom: .5em;
+  width: 7em;
+}
+
+.button span:after 
+{
+  content: ' ';  
+  position: absolute;
+  top: 0;
+  right: -2em;
+  opacity: 0;
+  width: .6em;
+  height: .6em;
+  margin-top: -.4em;
+
+
+  background: rgba(0, 0, 0, 0);
+  border: .18em solid #FFF;
+  border-top: none;
+  border-right: none;
+
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+.button:hover span
+{
+  right: 1em;
+  transition: 0.5s;
+  
+}
+
+.button:hover span:after, .button:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #FFF;
+  right: 0%;
+  top: 40%;
+}
+
+*/
+
+
