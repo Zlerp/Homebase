@@ -21,13 +21,12 @@ body {
   background: #444;
 	font-size: 1em;
 	font-family: 'Oswald', 'Helvetica Neue', Helvetica;
-	line-height: 1.4;
 }
 
 .banner {
-	position: relative;
+	position: center;
 	z-index: 1;
-	width: 30vw;
+	width: 32vw;
 	padding-top: 5vw;
 	padding-left: 2vw;
 	height: 100%;
@@ -35,7 +34,7 @@ body {
 }
 
 .banner .line {
-	margin: 0 0 12vw;
+	margin: 0 0 4vw;
 	width: 100%;
 	height: 8vw;
 	box-shadow: 2vw 2vw 2vw rgba(0,0,0,0.05);
@@ -44,7 +43,9 @@ body {
 	font-size: 6vw;
 	line-height: 8vw;
 	transform: skew(0, -15deg);
+
 }
+
 
 .banner .line:after,
 .banner .line:first-child:before {
@@ -53,9 +54,9 @@ body {
 	left: 0;
 	z-index: -1;
 	display: block;
-	width: 20vw;
-	height: 8vw;
-	border-radius: 1vw;
+	width: 7vw;
+	height: 4vw;
+	border-radius: 0vw;
 	background: rgba(180,180,180,0.8);
 	content: '';
 	transform: skew(0, 15deg);
@@ -81,7 +82,6 @@ body {
 	top: 1vw;
 	border-color: transparent transparent rgba(180,180,180,0.8) rgba(180,180,180,0.8);
 }
-
 .banner span {
 	display: block;
 	width: 100%;

@@ -2341,7 +2341,7 @@
 .hvr-outline-out:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #C1CE6F inset 1vh;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2352,14 +2352,15 @@
   transition-property: top, right, bottom, left;
 }
 .hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
-  top: -8px;
-  right: -8px;
-  bottom: -8px;
-  left: -8px;
+  top: -1vw;
+  right: -1vw;
+  bottom: -1vw;
+  left: -1vw;
 }
 
 /* Outline In */
 .hvr-outline-in {
+
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -2374,11 +2375,11 @@
   pointer-events: none;
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 4px;
-  top: -16px;
-  right: -16px;
-  bottom: -16px;
-  left: -16px;
+  border: #65784f inset 1vw;
+  top: -5vw;
+  right: -5vw;
+  bottom: -5vw;
+  left: -5vw;
   opacity: 0;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -2386,10 +2387,10 @@
   transition-property: top, right, bottom, left;
 }
 .hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
-  top: -8px;
-  right: -8px;
-  bottom: -8px;
-  left: -8px;
+  top: -1vw;
+  right: -1vw;
+  bottom: -1vw;
+  left: -1vw;
   opacity: 1;
 }
 
