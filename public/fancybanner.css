@@ -27,39 +27,42 @@ body {
 .banner {
 	position: relative;
 	z-index: 1;
-	margin: 80px auto;
-	width: 330px;
+	width: 30vw;
+	padding-top: 5vw;
+	padding-left: 2vw;
+	height: 100%;
+
 }
 
 .banner .line {
-	margin: 0 0 10px;
+	margin: 0 0 12vw;
 	width: 100%;
-	height: 78px;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
+	height: 8vw;
+	box-shadow: 2vw 2vw 2vw rgba(0,0,0,0.05);
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 3em;
-	line-height: 78px;
+	font-size: 6vw;
+	line-height: 8vw;
 	transform: skew(0, -15deg);
 }
 
 .banner .line:after,
 .banner .line:first-child:before {
 	position: absolute;
-	top: 44px;
+	top: 5vw;
 	left: 0;
 	z-index: -1;
 	display: block;
-	width: 330px;
-	height: 78px;
-	border-radius: 4px;
+	width: 20vw;
+	height: 8vw;
+	border-radius: 1vw;
 	background: rgba(180,180,180,0.8);
 	content: '';
 	transform: skew(0, 15deg);
 }
 
 .banner .line:first-child:before {
-	top: -10px;
+	top: -1vw;
 	right: 0;
 	left: auto;
 }
@@ -68,14 +71,14 @@ body {
 .banner .line:last-child:after {
 	width: 0;
 	height: 0;
-	border-width: 38px;
+	border-width: 4vw;
 	border-style: solid;
 	border-color: rgba(180,180,180,0.8) rgba(180,180,180,0.8) transparent transparent;
 	background: transparent;
 }
 
 .banner .line:last-child:after {
-	top: 12px;
+	top: 1vw;
 	border-color: transparent transparent rgba(180,180,180,0.8) rgba(180,180,180,0.8);
 }
 
