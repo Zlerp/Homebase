@@ -1,15 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
 @import url(http://fonts.googleapis.com/css?family=Sail|Oleo+Script|Monoton|Playball|Megrim);
 @import url(http://fonts.googleapis.com/css?family=Damion);
+@import url(http://fonts.googleapis.com/css?family=Nova+Mono|Leckerli+One);
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,400italic|Sonsie+One|Pacifico|Cuprum:400,700);
 
+/******  Fonts     **********
+font-family: 'Cuprum', sans-serif;   p
+font-family: 'Pacifico', cursive;   c+
+font-family: 'Sonsie One', cursive; 
+font-family: 'Cabin', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Damion', cursive;
 
-body {
+****************************/
+
+/*body {
 	margin:0;
-}
+	background-color:#C6BC5E;
+background-image: 
+radial-gradient(circle at 100% 150%, #C6BC5E 24%, #0B2532 25%, #0B2532 28%, #C6BC5E 29%, #C6BC5E 36%, #0B2532 36%, #0B2532 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, #C6BC5E 24%, #0B2532 25%, #0B2532 28%, #C6BC5E 29%, #C6BC5E 36%, #0B2532 36%, #0B2532 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #0B2532 10%, #C6BC5E 11%, #C6BC5E 23%, #0B2532 24%, #0B2532 30%, #C6BC5E 31%, #C6BC5E 43%, #0B2532 44%, #0B2532 50%, #C6BC5E 51%, #C6BC5E 63%, #0B2532 64%, #0B2532 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #0B2532 5%, #C6BC5E 6%, #C6BC5E 15%, #0B2532 16%, #0B2532 20%, #C6BC5E 21%, #C6BC5E 30%, #0B2532 31%, #0B2532 35%, #C6BC5E 36%, #C6BC5E 45%, #0B2532 46%, #0B2532 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, #0B2532 5%, #C6BC5E 6%, #C6BC5E 15%, #0B2532 16%, #0B2532 20%, #C6BC5E 21%, #C6BC5E 30%, #0B2532 31%, #0B2532 35%, #C6BC5E 36%, #C6BC5E 45%, #0B2532 46%, #0B2532 49%, transparent 50%, transparent);
+background-size:100px 50px;
+}*/
 
 .lander{
 	height: 50vw;
-	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/Howl__039_s_Moving_Castle_Anime_cartoon_fantasy_ships_vehicles_landscapes_flight_buildings_houses_cities_art_4691x2319_zps5zdkgoxn.png");
+	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/howl_landscape_zps4h8qxbcs.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
@@ -23,8 +42,32 @@ body {
 	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/057c6aba-d500-4c37-ac00-260995c88bac_zpsp2qky34k.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-left: 22%; 
+	margin-left: 25vw; 
 	margin-top: 12%;
+}
+#stick {
+	display: inline;
+	margin: 0 0 0;
+	z-index: 1;
+	width: 4vw;
+	height: 6vw;
+	position: absolute;
+  	top:43vw; right:0; bottom:0; left:64vw;
+	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/stick-man_zps2lb2rdlt.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#kid {
+	display: inline;
+	margin: 0 0 0;
+	z-index: 1;
+	width: 4vw;
+	height: 4vw;
+	position: absolute;
+  	top:46vw; right:0; bottom:0; left:60vw;
+	background:url("http://i296.photobucket.com/albums/mm195/Zlerp/lil-kid_zpswombrxq5.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #name{
@@ -44,22 +87,115 @@ body {
  
 }
 
-span.fixed {
-	display: inline;
+div.fixed {
 	font-family: 'Playball', cursive;
 	color: #00cc7e;
 	font-size: 10vw;
 	text-shadow: 0 2px 4px #000; /* horizontal-offset vertical-offset 'blur' colour */
-    font-weight: 300px;
     letter-spacing: 1px;
-    /*margin-left: 55%;*/
-    margin-top: ;
-    width: 50%;
+    width: 4em;
     text-align: center;
-    z-index: 1;
-    padding-top: 0em;
     opacity: 0.8;
+    position: absolute;
+    top:.6em; right:0; bottom:0; left:5.5em;
 }
+
+.menuBar{
+
+	width: 100%;
+	height: 5.35vw;
+	background-color: #0B2532;
+	/*border: double #0B2532 .2em;*/
+	/*opacity: .8;*/
+	text-align: center;
+	border-spacing: 3em;
+	margin-bottom: -2em;
+}
+
+.menuBar li {
+	color: white;
+	display: inline;
+	text-decoration: none;
+	font-size: 4vw;
+	/*font-family: 'Nova Mono';*/
+	font-family: 'Leckerli One', cursive;
+	text-shadow: 0 2px 2px #000;
+	opacity: .7;
+	margin:0 5vw 0em 5vw;
+
+}
+ul{
+	margin: 0 0 0 0;
+}
+
+.menuBar li ::hover {
+
+	/*box-shadow: 10px 10px 5px #ffffff;*/
+	box-shadow: 1em 1em .5em #ffffff;
+}
+.content{
+	margin: 0 auto;
+	/*border: .2em inset #2DB59D;*/
+	height: 30vw;
+	background-color: #F8F8F8;
+	font-family: 'Cabin', sans-serif;
+	font-size: .8em;
+	font-weight: 800;
+	text-align: center;
+}
+
+
+.about h2{
+
+	font-family: 'Pacifico', cursive;
+	color: #202020 ;
+	font-size: 4em;
+	letter-spacing: .1em;
+	text-shadow: 0 .05vw .15vw #000000;
+	margin-top: none;
+	padding-top: 5vw;
+}
+
+.about p{	
+
+	color: #606060;
+	opacity: .9;
+	text-shadow: 0 .05em .05em #000;
+	padding: 0 5em 0 5em;
+}
+
+div.footer {
+width: 100%;
+height: 8.8vw;
+background-color: #0B2532;
+margin-top: 20vw;
+display: inline-table;
+}
+nav li{
+	display: inline-block;
+	width: 10vw;
+	height: 10vw;
+	opacity: .5;
+}
+nav.footy{
+	text-align: center;
+	word-spacing: 5vw;
+}
+
+
+li#fb
+{
+	background:url("piccs/1436071607_46-facebook.png");
+	height: 100%;
+	width:100%;
+	background-color: #080808
+}
+#in
+#twit
+#mail
+
+/*   EXTRA SHIT
+
 .successfully-saved.hide-opacity{
     opacity: 0;
 }
@@ -75,14 +211,6 @@ span.fixed {
      opacity: 1;
 }
 
-.menuBar{
-
-	width: 100%;
-	height: 7%;
-	background-color: red;
-}
-
-/*   EXTRA SHIT
 
 
 body { 

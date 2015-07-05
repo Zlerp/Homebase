@@ -65,3 +65,51 @@
         55% {-moz-transform: scale(.93);}
         to {-moz-transform: scale(0.9);}    
     }
+
+    #kid{
+	float: left;
+    -webkit-animation-name: Floatingy;
+    -webkit-animation-duration: 2.7s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floatingz;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;  
+}
+
+@-webkit-keyframes Floatingy{
+    from {-webkit-transform:translate(0px, 0px);}
+    50% {-webkit-transform:translate(-1px, -5px);} 
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floatingz{
+    from {-moz-transform:translate(0, 0px);}
+    50% {-moz-transform:translate(1px, 5px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+  #stick{
+	float: left;
+    -webkit-animation-name: Floatinga;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floatingb;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;  
+}
+
+@-webkit-keyframes Floatinga{
+    from {-webkit-transform:translate(0px, 0px);}
+    50% {-webkit-transform:translate(-1px, 10px);} 
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floatingb{
+    from {-moz-transform:translate(0, 0px);}
+    50% {-moz-transform:translate(1px, 5px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
