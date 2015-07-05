@@ -1,0 +1,55 @@
+@import url("http://weloveiconfonts.com/api/?family=fontawesome|zocial");
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'Zocial', sans-serif;
+}
+
+
+function makelongshadow($color) {
+  $val: 0px 0px $color;
+  @for $i from 1 through 35 {
+    $val: #{$val}, #{$i}px #{$i}px #{$color};
+  }
+  @return $val;
+}
+
+
+.icons {
+  text-align: center;
+  background-color: #F8F8F8;
+ }
+ .social-icon {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 8vw;
+    width: 15vw;
+    height: 15vw;
+    line-height: 15vw;
+    border-radius: 7.5vw;
+    overflow: hidden;
+    margin: 0 1vw;
+  }
+  
+  .twitter {
+    background: #1dcaff;
+
+  }
+  
+  .facebook {
+    background: #3b5998;
+  }
+  
+  .google-plus {
+    background:  #dd4b39;
+  }
+  .linkedin {
+  	background: #007bb6;
+  }
+}
