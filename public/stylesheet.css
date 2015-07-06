@@ -15,18 +15,6 @@ font-family: 'Raleway', sans-serif;
 
 ****************************/
 
-/*body {
-  margin:0;
-  background-color:#C6BC5E;
-background-image: 
-radial-gradient(circle at 100% 150%, #C6BC5E 24%, #0B2532 25%, #0B2532 28%, #C6BC5E 29%, #C6BC5E 36%, #0B2532 36%, #0B2532 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, #C6BC5E 24%, #0B2532 25%, #0B2532 28%, #C6BC5E 29%, #C6BC5E 36%, #0B2532 36%, #0B2532 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, #0B2532 10%, #C6BC5E 11%, #C6BC5E 23%, #0B2532 24%, #0B2532 30%, #C6BC5E 31%, #C6BC5E 43%, #0B2532 44%, #0B2532 50%, #C6BC5E 51%, #C6BC5E 63%, #0B2532 64%, #0B2532 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, #0B2532 5%, #C6BC5E 6%, #C6BC5E 15%, #0B2532 16%, #0B2532 20%, #C6BC5E 21%, #C6BC5E 30%, #0B2532 31%, #0B2532 35%, #C6BC5E 36%, #C6BC5E 45%, #0B2532 46%, #0B2532 49%, transparent 50%, transparent),
-radial-gradient(circle at 0    50%, #0B2532 5%, #C6BC5E 6%, #C6BC5E 15%, #0B2532 16%, #0B2532 20%, #C6BC5E 21%, #C6BC5E 30%, #0B2532 31%, #0B2532 35%, #C6BC5E 36%, #C6BC5E 45%, #0B2532 46%, #0B2532 49%, transparent 50%, transparent);
-background-size:100px 50px;
-}*/
-
 body {
   background-color: #AA550F;
 }
@@ -143,7 +131,6 @@ ul{
   font-size: .8em;
   font-weight: 800;
   text-align: center;
-  margin-top: -5.5vw;
 }
 
 
@@ -237,8 +224,8 @@ ul{
 .gallbox{
   height:30vw;
   width: 95vw;
-  margin-left: -7vw;
-  margin-top: -4vw;
+  margin-left: -4vw;
+  margin-top: -5vw;
   word-spacing: 1.3vw;
   padding-bottom: 2vw;
 }
@@ -261,8 +248,12 @@ ul{
   word-spacing: 10vw;
 }
 
+._blank{
+  padding-top: 3vw;
+}
+
 #contactinfo {
-  padding-top: 1vw;
+  padding-top: 4vw;
   
 }
 
@@ -295,6 +286,32 @@ ul{
   opacity: .3
 
 }
+
+#facebook{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+#twitter{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+#linkedin{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+#mail{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+#google{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+#gits{
+  font-size: 6vw;
+  line-height: 12vw;
+}
+
 
 
 /*   EXTRA SHIT

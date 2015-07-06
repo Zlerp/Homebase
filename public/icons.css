@@ -1,4 +1,5 @@
-@import url("http://weloveiconfonts.com/api/?family=fontawesome|zocial");
+
+
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -28,8 +29,8 @@ function makelongshadow($color) {
     color: white;
     display: inline-block;
     font-size: 8vw;
-    width: 15vw;
-    height: 15vw;
+    width: 12vw;
+    height: 12vw;
     line-height: 15vw;
     border-radius: 7.5vw;
     overflow: hidden;
@@ -37,20 +38,214 @@ function makelongshadow($color) {
   }
   
   .twitter {
-    background: #1dcaff;
+    /*  #1CCAFF   */
+    text-shadow: rgb(23, 168, 212) 1px 1px,
+    rgb(23, 168, 212) 2px 2px,
+    rgb(23, 168, 212) 3px 3px,
+    rgb(23, 168, 212) 4px 4px,
+    rgb(23, 168, 212) 5px 5px,
+    rgb(23, 168, 212) 6px 6px,
+    rgb(23, 168, 212) 7px 7px,
+    rgb(23, 168, 212) 8px 8px,
+    rgb(23, 168, 212) 9px 9px,
+    rgb(23, 168, 212) 10px 10px,
+    rgb(23, 168, 212) 11px 11px,
+    rgb(23, 169, 214) 12px 12px,
+    rgb(23, 171, 216) 13px 13px,
+    rgb(23, 173, 219) 14px 14px,
+    rgb(24, 175, 221) 15px 15px,
+    rgb(24, 177, 223) 16px 16px,
+    rgb(24, 179, 226) 17px 17px,
+    rgb(24, 181, 228) 18px 18px,
+    rgb(25, 183, 231) 19px 19px,
+    rgb(25, 185, 233) 20px 20px,
+    rgb(25, 186, 235) 21px 21px,
+    rgb(26, 188, 238) 22px 22px,
+    rgb(26, 190, 240) 23px 23px,
+    rgb(26, 192, 243) 24px 24px,
+    rgb(26, 194, 245) 25px 25px,
+    rgb(27, 196, 247) 26px 26px,
+    rgb(27, 198, 250) 27px 27px,
+    rgb(27, 200, 252) 28px 28px,
+    rgb(28, 202, 255) 29px 29px;
+   background-color: rgb(28, 202, 255);
+  text-align: center;
 
   }
   
   .facebook {
-    background: #3b5998;
+    /*  #3B5998 */
+     text-shadow: rgb(49, 74, 126) 1px 1px,
+    rgb(49, 74, 126) 2px 2px,
+    rgb(49, 74, 126) 3px 3px,
+    rgb(49, 74, 126) 4px 4px,
+    rgb(49, 74, 126) 5px 5px,
+    rgb(49, 74, 126) 6px 6px,
+    rgb(49, 74, 126) 7px 7px,
+    rgb(49, 74, 126) 8px 8px,
+    rgb(49, 74, 126) 9px 9px,
+    rgb(49, 74, 126) 10px 10px,
+    rgb(49, 74, 126) 11px 11px,
+    rgb(49, 74, 127) 12px 12px,
+    rgb(50, 75, 128) 13px 13px,
+    rgb(50, 76, 130) 14px 14px,
+    rgb(51, 77, 131) 15px 15px,
+    rgb(51, 78, 133) 16px 16px,
+    rgb(52, 79, 134) 17px 17px,
+    rgb(52, 79, 136) 18px 18px,
+    rgb(53, 80, 137) 19px 19px,
+    rgb(54, 81, 139) 20px 20px,
+    rgb(54, 82, 140) 21px 21px,
+    rgb(55, 83, 141) 22px 22px,
+    rgb(55, 84, 143) 23px 23px,
+    rgb(56, 84, 144) 24px 24px,
+    rgb(56, 85, 146) 25px 25px,
+    rgb(57, 86, 147) 26px 26px,
+    rgb(57, 87, 149) 27px 27px,
+    rgb(58, 88, 150) 28px 28px,
+    rgb(59, 89, 152) 29px 29px;
+   background-color: rgb(59, 89, 152);
+  text-align: center;
   }
   
   .google-plus {
-    background:  #dd4b39;
+    /*  #DE4A38  */
+    text-shadow: rgb(186, 62, 47) 1px 1px,
+    rgb(186, 62, 47) 2px 2px,
+    rgb(186, 62, 47) 3px 3px,
+    rgb(186, 62, 47) 4px 4px,
+    rgb(186, 62, 47) 5px 5px,
+    rgb(186, 62, 47) 6px 6px,
+    rgb(186, 62, 47) 7px 7px,
+    rgb(186, 62, 47) 8px 8px,
+    rgb(186, 62, 47) 9px 9px,
+    rgb(186, 62, 47) 10px 10px,
+    rgb(186, 62, 47) 11px 11px,
+    rgb(186, 62, 47) 12px 12px,
+    rgb(188, 62, 47) 13px 13px,
+    rgb(190, 63, 48) 14px 14px,
+    rgb(192, 64, 48) 15px 15px,
+    rgb(194, 64, 49) 16px 16px,
+    rgb(196, 65, 49) 17px 17px,
+    rgb(198, 66, 50) 18px 18px,
+    rgb(200, 66, 50) 19px 19px,
+    rgb(202, 67, 51) 20px 20px,
+    rgb(204, 68, 51) 21px 21px,
+    rgb(206, 68, 52) 22px 22px,
+    rgb(208, 69, 52) 23px 23px,
+    rgb(210, 70, 53) 24px 24px,
+    rgb(212, 70, 53) 25px 25px,
+    rgb(214, 71, 54) 26px 26px,
+    rgb(216, 72, 54) 27px 27px,
+    rgb(218, 72, 55) 28px 28px,
+    rgb(220, 73, 55) 29px 29px,
+    rgb(222, 74, 56) 30px 30px;
+   background-color: rgb(222, 74, 56);
+  text-align: center;
   }
+
   .linkedin {
-  	background: #007bb6;
-  }
+/*  #007BB6     */
+text-shadow: rgb(0, 103, 153) 1px 1px,
+    rgb(0, 103, 153) 2px 2px,
+    rgb(0, 103, 153) 3px 3px,
+    rgb(0, 103, 153) 4px 4px,
+    rgb(0, 103, 153) 5px 5px,
+    rgb(0, 103, 153) 6px 6px,
+    rgb(0, 103, 153) 7px 7px,
+    rgb(0, 103, 153) 8px 8px,
+    rgb(0, 103, 153) 9px 9px,
+    rgb(0, 103, 153) 10px 10px,
+    rgb(0, 103, 153) 11px 11px,
+    rgb(0, 103, 153) 12px 12px,
+    rgb(0, 104, 154) 13px 13px,
+    rgb(0, 105, 156) 14px 14px,
+    rgb(0, 106, 157) 15px 15px,
+    rgb(0, 107, 159) 16px 16px,
+    rgb(0, 108, 161) 17px 17px,
+    rgb(0, 109, 162) 18px 18px,
+    rgb(0, 110, 164) 19px 19px,
+    rgb(0, 111, 165) 20px 20px,
+    rgb(0, 113, 167) 21px 21px,
+    rgb(0, 114, 169) 22px 22px,
+    rgb(0, 115, 170) 23px 23px,
+    rgb(0, 116, 172) 24px 24px,
+    rgb(0, 117, 173) 25px 25px,
+    rgb(0, 118, 175) 26px 26px,
+    rgb(0, 119, 177) 27px 27px,
+    rgb(0, 120, 178) 28px 28px,
+    rgb(0, 121, 180) 29px 29px,
+    rgb(0, 123, 182) 30px 30px;
+   background-color: rgb(0, 123, 182);
+  text-align: center;
+}
   .mail {
-  	background: #89F88D;
+    /*   #98E7FC    */
+  	text-shadow: rgb(128, 194, 212) 1px 1px,
+    rgb(128, 194, 212) 2px 2px,
+    rgb(128, 194, 212) 3px 3px,
+    rgb(128, 194, 212) 4px 4px,
+    rgb(128, 194, 212) 5px 5px,
+    rgb(128, 194, 212) 6px 6px,
+    rgb(128, 194, 212) 7px 7px,
+    rgb(128, 194, 212) 8px 8px,
+    rgb(128, 194, 212) 9px 9px,
+    rgb(128, 194, 212) 10px 10px,
+    rgb(128, 194, 212) 11px 11px,
+    rgb(128, 194, 212) 12px 12px,
+    rgb(129, 196, 214) 13px 13px,
+    rgb(130, 198, 216) 14px 14px,
+    rgb(132, 200, 218) 15px 15px,
+    rgb(133, 202, 220) 16px 16px,
+    rgb(134, 204, 223) 17px 17px,
+    rgb(136, 206, 225) 18px 18px,
+    rgb(137, 208, 227) 19px 19px,
+    rgb(138, 210, 229) 20px 20px,
+    rgb(140, 212, 232) 21px 21px,
+    rgb(141, 214, 234) 22px 22px,
+    rgb(142, 216, 236) 23px 23px,
+    rgb(144, 218, 238) 24px 24px,
+    rgb(145, 220, 240) 25px 25px,
+    rgb(146, 222, 243) 26px 26px,
+    rgb(148, 224, 245) 27px 27px,
+    rgb(149, 226, 247) 28px 28px,
+    rgb(150, 228, 249) 29px 29px,
+    rgb(152, 231, 252) 30px 30px;
+   background-color: rgb(152, 231, 252);
+  text-align: center;
+}
+
+.git {
+/*  #6043Ad  */
+text-shadow: rgb(80, 56, 144) 1px 1px,
+    rgb(80, 56, 144) 2px 2px,
+    rgb(80, 56, 144) 3px 3px,
+    rgb(80, 56, 144) 4px 4px,
+    rgb(80, 56, 144) 5px 5px,
+    rgb(80, 56, 144) 6px 6px,
+    rgb(80, 56, 144) 7px 7px,
+    rgb(80, 56, 144) 8px 8px,
+    rgb(80, 56, 144) 9px 9px,
+    rgb(80, 56, 144) 10px 10px,
+    rgb(80, 56, 144) 11px 11px,
+    rgb(80, 56, 145) 12px 12px,
+    rgb(81, 57, 147) 13px 13px,
+    rgb(82, 57, 148) 14px 14px,
+    rgb(83, 58, 150) 15px 15px,
+    rgb(84, 59, 152) 16px 16px,
+    rgb(85, 59, 153) 17px 17px,
+    rgb(86, 60, 155) 18px 18px,
+    rgb(87, 60, 156) 19px 19px,
+    rgb(88, 61, 158) 20px 20px,
+    rgb(88, 62, 160) 21px 21px,
+    rgb(89, 62, 161) 22px 22px,
+    rgb(90, 63, 163) 23px 23px,
+    rgb(91, 63, 164) 24px 24px,
+    rgb(92, 64, 166) 25px 25px,
+    rgb(93, 65, 168) 26px 26px,
+    rgb(94, 65, 169) 27px 27px,
+    rgb(95, 66, 171) 28px 28px,
+    rgb(96, 67, 173) 29px 29px;
+    background-color: rgb(96, 67, 173);
+    text-align: center;
 }
