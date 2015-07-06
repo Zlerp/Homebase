@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Damion);
 @import url(https://fonts.googleapis.com/css?family=Nova+Mono|Leckerli+One);
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic|Sonsie+One|Pacifico|Cuprum:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 /******  Fonts     **********
 font-family: 'Cuprum', sans-serif;   p
 font-family: 'Pacifico', cursive;   c+
@@ -11,6 +11,7 @@ font-family: 'Sonsie One', cursive;
 font-family: 'Cabin', sans-serif;
 font-family: 'Playball', cursive;
 font-family: 'Damion', cursive;
+font-family: 'Raleway', sans-serif;
 
 ****************************/
 
@@ -195,9 +196,11 @@ ul{
   height: 22vw;
   margin-left: 15vw;
   position: absolute;
-  top: 93vw; right:0; bottom:0; left:26vw;
-  font-size: 2.5vw;
+  top: 88vw; right:0; bottom:0; left:26vw;
+  font-size: 2.3vw;
   color: white;
+  text-indent: 1vw;
+  font-family: 'Raleway', sans-serif;
 }
 
 .filler2 h2{
@@ -251,7 +254,7 @@ ul{
   display: inline-block;
   height: 18vw;
   width: 22vw;
-  border: 2 inset #65784f;
+  border: 2 ridge #65784f;
   background:url("http://killertimecharters.com/wp-content/uploads/2015/04/coming-soon-stamp.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -265,13 +268,32 @@ ul{
 
 .finalcontent{
   margin: 0 auto;
-  height: 10vw;
+  height: 12vw;
   background-color: #F8F8F8;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 800;
   text-align: center;
   margin-top: -5.5vw;
-  font-family: 'Playball', cursive;
+  font-family: 'Pacifico', cursive;
+}
+
+#copyright{
+  height: 8vw;
+  width: 100%;
+  font-size: 1.2vw;
+  background-color: #F8F8F8;
+  padding-top: 2vw;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  border-top: .2vw solid #D0D0D0;
+  color: #B0B0B0;
+
+}
+
+#credit {
+  font-size: .8vw;
+  opacity: .3
+
 }
 
 

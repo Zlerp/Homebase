@@ -1,5 +1,5 @@
 @import url("http://weloveiconfonts.com/api/?family=fontawesome|zocial");
-
+@import url("/css/font-awesome.css")
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -52,4 +52,6 @@ function makelongshadow($color) {
   .linkedin {
   	background: #007bb6;
   }
+  .mail {
+  	background: #89F88D;
 }
