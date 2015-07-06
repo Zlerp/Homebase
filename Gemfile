@@ -5,7 +5,7 @@ ruby "2.2.2"
 
 gem "sinatra"
 gem 'rack'
-
+gem 'font-awesome-less'
 
 # run bundle in terminal
 
