@@ -73,10 +73,10 @@ body {
   text-align: center;
   font-border color: #00662a; 
   position: absolute;
-    top:13em; right:0; bottom:0; left:25em;
-    font-size:3vw;
-    color: white;
-    text-shadow: 0px 1px 2px #000000;
+  top:13em; right:0; bottom:0; left:25em;
+  font-size:3vw;
+  color: white;
+  text-shadow: 0px 1px 2px #000000;
  
 }
 
@@ -85,12 +85,12 @@ div.fixed {
   color: #00cc7e;
   font-size: 10vw;
   text-shadow: 0 2px 4px #000; /* horizontal-offset vertical-offset 'blur' colour */
-    letter-spacing: 1px;
-    width: 4em;
-    text-align: center;
-    opacity: 0.8;
-    position: absolute;
-    top:.6em; right:0; bottom:0; left:5.5em;
+  letter-spacing: 1px;
+  width: 4em;
+  text-align: center;
+  opacity: 0.8;
+  position: absolute;
+  top:.6em; right:0; bottom:0; left:5.5em;
 }
 
 .menuBar{
@@ -219,14 +219,19 @@ ul{
 
 .portfolio {  
   background-color: #0B2532;
+  text-align: center;
+  
 }
 #portfoli {
   margin-top: 2vw;
-}
 
+}
 .port {
   text-decoration: none;
-  text-transform: none;
+  font-size:4vw; 
+  font-family:'Pacifico', cursive; 
+  color: #B12A1E;
+
 }
 .gallbox{
   height:30vw;
@@ -244,11 +249,10 @@ ul{
 }
 
 .gallery {
-  margin-top: 6vw;
+  margin-top: 4vw;
   display: inline-block;
   height: 19vw;
   width: 22vw;
-  border: 2 ridge #65784f;
   background:url("http://killertimecharters.com/wp-content/uploads/2015/04/coming-soon-stamp.png");
   background-size: 18vw;
   background-position: center; 
@@ -256,11 +260,19 @@ ul{
   word-spacing: 10vw;
   opacity: .7;
   vertical-align: center;
+  text-shadow: 0 .05vw 0 #ffffff;
+
 
 }
 .gallery:hover {
   background-size: 23vw;
+  text-shadow: 0 .15vw 0 #ffffff;
   opacity: .9;
+}
+.port:hover {
+    color: #E0493B;
+
+
 }
 
 ._blank{
