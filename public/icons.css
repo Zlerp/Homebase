@@ -35,19 +35,31 @@ function makelongshadow($color) {
     border-radius: 7.5vw;
     overflow: hidden;
     margin: 0 1vw;
+    opacity: .5;
   }
+
+    .social-icon:hover {
+      opacity: .99;
+    }
+
+   .twitter{
+     background-color: rgb(28, 202, 255);
+     text-align: center;
+
+   } 
+
   
-  .twitter {
+  .twitter:hover {
     /*  #1CCAFF   */
-    text-shadow: rgb(23, 168, 212) 1px 1px,
-    rgb(23, 168, 212) 2px 2px,
-    rgb(23, 168, 212) 3px 3px,
-    rgb(23, 168, 212) 4px 4px,
-    rgb(23, 168, 212) 5px 5px,
-    rgb(23, 168, 212) 6px 6px,
-    rgb(23, 168, 212) 7px 7px,
-    rgb(23, 168, 212) 8px 8px,
-    rgb(23, 168, 212) 9px 9px,
+    text-shadow: rgb(23, 168, 212) .1px 1px,
+    rgb(23, 168, 212) .2px 2px,
+    rgb(23, 168, 212) .3px 3px,
+    rgb(23, 168, 212) .4px 4px,
+    rgb(23, 168, 212) .5px 5px,
+    rgb(23, 168, 212) .6px 6px,
+    rgb(23, 168, 212) .7px 7px,
+    rgb(23, 168, 212) .8px 8px,
+    rgb(23, 168, 212) .9px 9px,
     rgb(23, 168, 212) 10px 10px,
     rgb(23, 168, 212) 11px 11px,
     rgb(23, 169, 214) 12px 12px,
@@ -68,12 +80,9 @@ function makelongshadow($color) {
     rgb(27, 198, 250) 27px 27px,
     rgb(27, 200, 252) 28px 28px,
     rgb(28, 202, 255) 29px 29px;
-   background-color: rgb(28, 202, 255);
-  text-align: center;
-
   }
   
-  .facebook {
+  .facebook:hover {
     /*  #3B5998 */
      text-shadow: rgb(49, 74, 126) 1px 1px,
     rgb(49, 74, 126) 2px 2px,
@@ -104,11 +113,18 @@ function makelongshadow($color) {
     rgb(57, 87, 149) 27px 27px,
     rgb(58, 88, 150) 28px 28px,
     rgb(59, 89, 152) 29px 29px;
-   background-color: rgb(59, 89, 152);
-  text-align: center;
+  }
+  .facebook{
+    background-color: rgb(59, 89, 152);
+    text-align: center;
+  }
+
+  .google-plus{
+    background-color: rgb(222, 74, 56);
+    text-align: center;
   }
   
-  .google-plus {
+  .google-plus:hover {
     /*  #DE4A38  */
     text-shadow: rgb(186, 62, 47) 1px 1px,
     rgb(186, 62, 47) 2px 2px,
@@ -140,11 +156,14 @@ function makelongshadow($color) {
     rgb(218, 72, 55) 28px 28px,
     rgb(220, 73, 55) 29px 29px,
     rgb(222, 74, 56) 30px 30px;
-   background-color: rgb(222, 74, 56);
-  text-align: center;
   }
 
-  .linkedin {
+  .linkedin{
+    background-color: rgb(0, 123, 182);
+    text-align: center;
+  }
+
+  .linkedin:hover {
 /*  #007BB6     */
 text-shadow: rgb(0, 103, 153) 1px 1px,
     rgb(0, 103, 153) 2px 2px,
@@ -176,10 +195,13 @@ text-shadow: rgb(0, 103, 153) 1px 1px,
     rgb(0, 120, 178) 28px 28px,
     rgb(0, 121, 180) 29px 29px,
     rgb(0, 123, 182) 30px 30px;
-   background-color: rgb(0, 123, 182);
-  text-align: center;
 }
-  .mail {
+
+  .mail{
+    background-color: rgb(152, 231, 252);
+    text-align: center;
+  }
+  .mail:hover {
     /*   #98E7FC    */
   	text-shadow: rgb(128, 194, 212) 1px 1px,
     rgb(128, 194, 212) 2px 2px,
@@ -211,13 +233,15 @@ text-shadow: rgb(0, 103, 153) 1px 1px,
     rgb(149, 226, 247) 28px 28px,
     rgb(150, 228, 249) 29px 29px,
     rgb(152, 231, 252) 30px 30px;
-   background-color: rgb(152, 231, 252);
-  text-align: center;
+}
+.git{
+    background-color: rgb(96, 67, 173);
+    text-align: center;
 }
 
-.git {
-/*  #6043Ad  */
-text-shadow: rgb(80, 56, 144) 1px 1px,
+.git:hover {
+    /*  #6043Ad  */
+    text-shadow: rgb(80, 56, 144) 1px 1px,
     rgb(80, 56, 144) 2px 2px,
     rgb(80, 56, 144) 3px 3px,
     rgb(80, 56, 144) 4px 4px,
@@ -246,6 +270,5 @@ text-shadow: rgb(80, 56, 144) 1px 1px,
     rgb(94, 65, 169) 27px 27px,
     rgb(95, 66, 171) 28px 28px,
     rgb(96, 67, 173) 29px 29px;
-    background-color: rgb(96, 67, 173);
-    text-align: center;
+
 }

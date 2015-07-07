@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Damion);
 @import url(https://fonts.googleapis.com/css?family=Nova+Mono|Leckerli+One);
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic|Sonsie+One|Pacifico|Cuprum:400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 /******  Fonts     **********
 font-family: 'Cuprum', sans-serif;   p
 font-family: 'Pacifico', cursive;   c+
@@ -153,6 +153,12 @@ ul{
   opacity: .7;
 }
 
+#quote1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: .2vw;
+  opacity: .5;
+}
+
 .infoBlock{
   height: 50vw;
   background-color: #28AB94
@@ -192,10 +198,10 @@ ul{
 
 .filler2 h2{
 
-  font-family: 'Playball', cursive; 
+  font-family:'Pacifico', cursive; 
   color: #202020 ;
   font-size: 6vw;
-  letter-spacing: .1em;
+  letter-spacing:.7vw;
   text-shadow: 0 .05vw 0 #000000;
   padding-top: 6vw;
   opacity: .99;
@@ -205,9 +211,10 @@ ul{
 .filler2 p{ 
 
   color: #000000;
-  padding: 0 5em 0 5em;
+  padding: 3vw 5em 0 5em;
   font-size: 2vw;
   opacity: .4;
+  font-family: 'Raleway', sans-serif;
 }
 
 .portfolio {  
@@ -239,13 +246,21 @@ ul{
 .gallery {
   margin-top: 6vw;
   display: inline-block;
-  height: 18vw;
+  height: 19vw;
   width: 22vw;
   border: 2 ridge #65784f;
   background:url("http://killertimecharters.com/wp-content/uploads/2015/04/coming-soon-stamp.png");
-  background-size: cover;
+  background-size: 18vw;
+  background-position: center; 
   background-repeat: no-repeat;
   word-spacing: 10vw;
+  opacity: .7;
+  vertical-align: center;
+
+}
+.gallery:hover {
+  background-size: 23vw;
+  opacity: .9;
 }
 
 ._blank{
@@ -254,14 +269,14 @@ ul{
 
 #contactinfo {
   padding-top: 4vw;
-  
+  z-index: 1;
 }
 
 .finalcontent{
   margin: 0 auto;
   height: 12vw;
   background-color: #F8F8F8;
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: 800;
   text-align: center;
   margin-top: -5.5vw;
@@ -273,7 +288,7 @@ ul{
   width: 100%;
   font-size: 1.2vw;
   background-color: #F8F8F8;
-  padding-top: 2vw;
+  padding-top: 4vw;
   font-family: 'Cabin', sans-serif;
   text-align: center;
   border-top: .2vw solid #D0D0D0;
@@ -283,7 +298,8 @@ ul{
 
 #credit {
   font-size: .8vw;
-  opacity: .3
+  opacity: .3;
+  margin-top:1vh;
 
 }
 
