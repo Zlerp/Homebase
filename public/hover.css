@@ -2662,6 +2662,8 @@
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
+  height:4.7vw;
+  padding-top: .5vw;
   color: white;
 }
 .hvr-underline-reveal:before {

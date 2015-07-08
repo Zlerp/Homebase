@@ -116,6 +116,7 @@ div.fixed {
 }
 ul{
   margin: 0 0 0 0;
+  height: 2vw;
 }
 
 .menuBar li ::hover {
@@ -220,7 +221,7 @@ ul{
 .portfolio {  
   background-color: #0B2532;
   text-align: center;
-  
+
 }
 #portfoli {
   margin-top: 2vw;
