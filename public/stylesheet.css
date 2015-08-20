@@ -7,7 +7,7 @@
 /******  Fonts     **********
 font-family: 'Cuprum', sans-serif;   p
 font-family: 'Pacifico', cursive;   c+
-font-family: 'Sonsie One', cursive; 
+font-family: 'Sonsie One', cursive;
 font-family: 'Cabin', sans-serif;
 font-family: 'Playball', cursive;
 font-family: 'Damion', cursive;
@@ -20,22 +20,24 @@ body {
 }
 
 .lander{
-  height: 50vw;
-  background:url("http://i296.photobucket.com/albums/mm195/Zlerp/howl_landscape_zps4h8qxbcs.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 45vw;
+  /*background:url("http://i296.photobucket.com/albums/mm195/Zlerp/howl_landscape_zps4h8qxbcs.png");*/
+
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  background-color: #F8F8F8;
   margin: 0 auto;
   z-index: -1;
 }
 
-#ship {
+/*#ship {
   display: inline;
   width: 35vw;
   height: 32vw;
   background:url("http://i296.photobucket.com/albums/mm195/Zlerp/057c6aba-d500-4c37-ac00-260995c88bac_zpsp2qky34k.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 25vw; 
+  margin-left: 25vw;
   margin-top: 12%;
 }
 #stick {
@@ -61,36 +63,36 @@ body {
   background:url("http://i296.photobucket.com/albums/mm195/Zlerp/lil-kid_zpswombrxq5.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
-#name{
-  font-family: 'Damion', cursive;
-  margin: 0 0 0;
+#name {
+  font-family: 'Raleway', sans-serif;
+  /*margin: 0 auto;*/
   opacity: .6;
   height: 1em;
-  width: 7em;
-  font-weight: 800;
+  width: 100%;
+  font-weight: 100;
   text-align: center;
-  font-border color: #00662a; 
-  position: absolute;
-  top:13em; right:0; bottom:0; left:25em;
+  font-border color: #00662a;
   font-size:3vw;
   color: white;
   text-shadow: 0px 1px 2px #000000;
- 
+  padding-top: 4vw;
+
+
 }
 
 div.fixed {
-  font-family: 'Playball', cursive;
-  color: #00cc7e;
+  font-family: 'Pacifico', cursive;
+  color: black;
   font-size: 10vw;
   text-shadow: 0 2px 4px #000; /* horizontal-offset vertical-offset 'blur' colour */
   letter-spacing: 1px;
   width: 4em;
   text-align: center;
   opacity: 0.8;
-  position: absolute;
-  top:.6em; right:0; bottom:0; left:5.5em;
+  margin: 0 auto;
+  padding-top: 4vw;
 }
 
 .menuBar{
@@ -146,7 +148,7 @@ ul{
   margin-bottom: 3vw;
 }
 
-.filler1 p{ 
+.filler1 p{
 
   color: #606060;
   padding: 0 5em 0 5em;
@@ -175,7 +177,7 @@ ul{
   border-radius: 50%; /* the magic */
   text-transform: uppercase;
   font-weight: 700;
-  background: url("http://i296.photobucket.com/albums/mm195/Zlerp/327faf73-6872-4fff-957d-d00260b5f377_zpsta7taqxz.jpg"); 
+  background: url("http://i296.photobucket.com/albums/mm195/Zlerp/Screen%20Shot%202015-08-20%20at%2012.14.23%20AM_zps5r9zmdee.png");
   background-size: cover;
   border: inset 3vw;
   position: absolute;
@@ -191,7 +193,7 @@ ul{
   margin-left: 15vw;
   position: absolute;
   top: 88vw; right:0; bottom:0; left:26vw;
-  font-size: 2.3vw;
+  font-size: 2vw;
   color: white;
   text-indent: 1vw;
   font-family: 'Raleway', sans-serif;
@@ -199,7 +201,7 @@ ul{
 
 .filler2 h2{
 
-  font-family:'Pacifico', cursive; 
+  font-family:'Pacifico', cursive;
   color: #202020 ;
   font-size: 6vw;
   letter-spacing:.7vw;
@@ -209,7 +211,7 @@ ul{
   margin-bottom: 2vw;
 }
 
-.filler2 p{ 
+.filler2 p{
 
   color: #000000;
   padding: 3vw 5em 0 5em;
@@ -218,7 +220,7 @@ ul{
   font-family: 'Raleway', sans-serif;
 }
 
-.portfolio {  
+.portfolio {
   background-color: #0B2532;
   text-align: center;
 
@@ -229,8 +231,8 @@ ul{
 }
 .port {
   text-decoration: none;
-  font-size:4vw; 
-  font-family:'Pacifico', cursive; 
+  font-size:4vw;
+  font-family:'Pacifico', cursive;
   color: #B12A1E;
 
 }
@@ -256,7 +258,7 @@ ul{
   width: 22vw;
   background:url("http://killertimecharters.com/wp-content/uploads/2015/04/coming-soon-stamp.png");
   background-size: 18vw;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
   word-spacing: 10vw;
   opacity: .7;
@@ -362,9 +364,9 @@ ul{
 
 
 
-body { 
-  font-family: "Nunito", sans-serif; 
-  font-size: 24px; 
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
   background-color: #092531;
   margin: 0px;
 }
@@ -382,9 +384,9 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   margin-left: 70% ;
-  position: absolute; 
+  position: absolute;
   top:17em; right:0; bottom:0; left:0;
-  
+
   padding: 1em;
   width: 6em;
   height:.1em;
@@ -393,12 +395,12 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   border: .3em inset #0D6;
   color: #FFF;
   overflow: hidden;
-  
+
   transition: all 0.5s;
 }
 
 }
-.button:hover, .button:active 
+.button:hover, .button:active
 {
   text-decoration: none;
   color: #0C5;
@@ -406,7 +408,7 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   background: #FFF;
 }
 
-.button span 
+.button span
 {
   display: inline-block;
   position: relative;
@@ -416,9 +418,9 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   width: 7em;
 }
 
-.button span:after 
+.button span:after
 {
-  content: ' ';  
+  content: ' ';
   position: absolute;
   top: 0;
   right: -2em;
@@ -441,10 +443,10 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
 {
   right: 1em;
   transition: 0.5s;
-  
+
 }
 
-.button:hover span:after, .button:active span:after 
+.button:hover span:after, .button:active span:after
 {
   transition: opacity 0.5s, top 0.5s, right 0.5s;
   opacity: 1;
@@ -454,5 +456,3 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
 }
 
 */
-
-
